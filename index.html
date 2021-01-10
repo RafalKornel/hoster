@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoster</title>
+
+    <link rel="stylesheet" href="/static/css/browser-animations.css">
+    <link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<body>
+    <header>
+        <span id="logo">Hoster</span>
+        <nav class="hidden">
+            <ul>
+                <li><a href="#">Website creator</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+            <div class="bar top"></div>
+            <div class="bar middle"></div>
+            <div class="bar bottom"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__left">
+                <h1>Reliable
+                    <hr> cheap
+                    <hr> easy
+                </h1>
+                <p>Creating, hosting and mainaining websites made simple.</p>
+                <button>Show me plans</button>
+            </div>
+
+            <svg class="browser-svg" width="677" height="507" viewBox="0 0 677 507" fill="white">
+                <rect x="0" width="677" height="80" fill="#ECECEC" />
+                <rect class="slider" x="633" y="100" width="30" height="220" rx="15" fill="#DDDDDD" />
+                <rect class="text" x="142" y="159" width="343" height="70" rx="35" fill="#D7D7D7" />
+                <rect class="icon" x="51" y="159" width="67" height="70" rx="33.5" fill="#F128B9" />
+                <rect class="text" x="51" y="273" width="268" height="30" rx="15" fill="#EAEAEA" />
+                <rect class="text" x="51" y="315" width="350" height="30" rx="15" fill="#EAEAEA" />
+                <g transform="translate(510, 390)">
+                    <rect class="button" x="-85" y="-10" width="170" height="40" rx="20" fill="#3EC8C8" />
+                </g>
+                <g transform="translate(25, 40)">
+                    <circle cx="20" cy="0" r="20" fill="#FF5252" />
+                </g>
+                <g transform="translate(80, 40)">
+                    <circle cx="20" cy="0" r="20" fill="#FFFF00" />
+                </g>
+                <g transform="translate(135, 40)">
+                    <circle cx="20" cy="0" r="20" fill="#69F0AE" />
+                </g>
+
+                </defs>
+            </svg>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <h2>Pricing</h2>
+            <form action="" class="check-domain">
+                <input type="text" placeholder="yourdomain.com" />
+                <button type="submit">check availibility</button>
+            </form>
+            <article>
+                <h3>Regular</h3>
+                <ul>
+                    <li>✓ 1 web page</li>
+                    <li>✓ 10 GB of SSD storage</li>
+                    <li>✓ 1 e-mail account</li>
+                </ul>
+                <ul>
+                    <li>✓ Free WordPress CMS</li>
+                    <li>✓ 30 days refund policy</li>
+                    <li>✓ 2 free databases</li>
+                </ul>
+                <ul>
+                    <li>✓ Free SSL certificate</li>
+                    <li>✗ No domain</li>
+                    <li>✓ 100 GB bandwith</li>
+                </ul>
+                <div class="price">
+                    <p>3.99<span class="dollar">$</span><span class="per-month">/month</span></p>
+                    <img src="public/cart-icon.svg" alt="cart-icon">
+                </div>
+
+            </article>
+
+            <article>
+                <h3>Premium</h3>
+                <ul>
+                    <li>✓ 50 web page</li>
+                    <li>✓ 20 GB of SSD storage</li>
+                    <li>✓ 10 e-mail account</li>
+                </ul>
+                <ul>
+                    <li>✓ Free WordPress CMS</li>
+                    <li>✓ 30 days refund policy</li>
+                    <li>✓ Unlimited databases</li>
+                </ul>
+                <ul>
+                    <li>✓ Free SSL certificate</li>
+                    <li>✓ Free domain</li>
+                    <li>✓ Unlimited bandwith</li>
+                </ul>
+                <div class="price">
+                    <p>5.99<span class="dollar">$</span><span class="per-month">/month</span></p>
+                    <img src="public/cart-icon.svg" alt="cart-icon">
+                </div>
+            </article>
+
+            <article>
+                <h3>Business</h3>
+                <ul>
+                    <li>✓ 100 web page</li>
+                    <li>✓ 100 GB of SSD storage</li>
+                    <li>✓ Free e-mail account</li>
+                </ul>
+                <ul>
+                    <li>✓ Free WordPress CMS</li>
+                    <li>✓ Faster WordPress</li>
+                    <li>✓ 30 days refund policy</li>
+                    <li>✓ Unlimited databases</li>
+                    <li>✓ Free CDN</li>
+                </ul>
+                <ul>
+                    <li>✓ Free SSL certificate</li>
+                    <li>✓ Free domain</li>
+                    <li>✓ Unlimited bandwith</li>
+                    <li>✓ Free SSH access</li>
+                </ul>
+                <div class="price">
+                    <p>9.99<span class="dollar">$</span><span class="per-month">/month</span></p>
+                    <img src="public/cart-icon.svg" alt="cart-icon">
+                </div>
+            </article>
+        </section>
+
+        <section class="why-us">
+            <h2>Why us</h2>
+            <article>
+                <img src="public/wallet.svg" alt="wallet">
+                <h3>Affordable</h3>
+                <p>Choose from many available service plans. Gain many benefits over time.</p>
+            </article>
+            <article>
+                <img src="public/gears.svg" alt="gears">
+                <h3>Stable</h3>
+                <p>Our servers achieve over 99.99% uptime. Deploy your service once and never worry about maintenance.
+                </p>
+            </article>
+            <article>
+                <img src="public/iot.svg" alt="iot">
+                <h3>Convenient</h3>
+                <p>Get full control over your website with our advanced admin panel. All services in one place.</p>
+            </article>
+        </section>
+
+        <section class="trusted-by">
+            <h2>Trusted by</h2>
+            <div class="brands">
+                <img src="public/brands/nike.svg" alt="nike">
+                <img src="public/brands/spotify.svg" alt="spotify">
+                <img src="public/brands/salesforce.svg" alt="salesforce">
+                <img src="public/brands/mongodb.svg" alt="mongo db">
+                <img src="public/brands/north face.svg" alt="north face">
+                <img src="public/brands/amazon.svg" alt="amazon">
+                <img src="public/brands/slack.svg" alt="slac">
+                <img src="public/brands/samsung.svg" alt="samsung">
+            </div>
+
+        </section>
+
+        <section class="faq">
+            <h2>FAQ</h2>
+            <article>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore dolorem assumenda,
+                    culpa eum perferendis similique. Dolor neque numquam magni, soluta nemo veniam aliquid nam, deserunt
+                    quam similique officia architecto.</p>
+            </article>
+            <article>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore dolorem assumenda,
+                    culpa eum perferendis similique. Dolor neque numquam magni, soluta nemo veniam aliquid nam, deserunt
+                    quam similique officia architecto.</p>
+            </article>
+            <article>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore dolorem assumenda,
+                    culpa eum perferendis similique. Dolor neque numquam magni, soluta nemo veniam aliquid nam, deserunt
+                    quam similique officia architecto.</p>
+            </article>
+            <article>
+                <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum, ea?</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore dolorem assumenda,
+                    culpa eum perferendis similique. Dolor neque numquam magni, soluta nemo veniam aliquid nam, deserunt
+                    quam similique officia architecto.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <h2>Contact us</h2>
+        <form action="">
+            <input type="text" placeholder="Your e-mail">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <button type="submit">send</button>
+        </form>
+        <p>
+            This website has been created for educational purposes only. I do not posess any rights for trademarks used
+            in “trusted by” section, all informations are fake.
+            If you own rights to brands that has been used in this project and want them to be removed, please contact
+            me. <br> <br>
+
+            Created by
+            Rafał Kornel <br>
+
+            <a href="http://github.com/rafalkornel">Github</a>
+        </p>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#">Website creator</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <p>819 Maple Lane, Birmingham, Alabama, US</p>
+            <p>© 2021 Hoster all rights reserved</p>
+        </div>
+    </footer>
+
+
+    <script src="static/js/main.js"></script>
+
+</body>
+
+</html>

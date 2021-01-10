@@ -1,0 +1,34 @@
+.browser-svg {
+    display: none;
+
+    rect, circle {
+        transition: all 300ms ease;
+        transform-origin: 15px 0px;
+    }
+
+    circle:hover {
+        transform: scale(1.3);
+    }
+
+    .slider:hover {
+        transform: translateY(100px);
+    }
+
+    .button:hover {
+        animation: buttonClick 0.8s;
+    }
+
+    .icon:hover {
+        fill: #7d2cff;
+    }
+
+    .text:hover {
+        transform: translateX(30px);
+    }
+}
+
+@keyframes buttonClick {
+    60% {
+        transform: scale(0.8);
+    }
+}
